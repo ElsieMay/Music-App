@@ -17,6 +17,14 @@ class MainTabBarViewController: UITabBarController {
         let vc2 = UINavigationController(rootViewController: SearchViewController())
         let vc3 = UINavigationController(rootViewController: SaveViewController())
         let vc4 = UINavigationController(rootViewController: PlaylistViewController())
+   
+        vc1.tabBarItem.image = UIImage(systemName: "house")
+        vc2.tabBarItem.image = UIImage(systemName: "magnifyingglass")
+        vc3.tabBarItem.image = UIImage(systemName: "square.and.arrow.down")
+        vc4.tabBarItem.image = UIImage(systemName: "play")
+    
+        setViewControllers([vc1, vc2, vc3, vc4], animated: true)
+    
     }
 
 
