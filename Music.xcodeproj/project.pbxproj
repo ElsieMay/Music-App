@@ -14,6 +14,7 @@
 		E21ED01B28AA741200D07626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21ED01928AA741200D07626 /* LaunchScreen.storyboard */; };
 		E21ED02428ABC58800D07626 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21ED02328ABC58800D07626 /* HomeViewController.swift */; };
 		E21ED02628ABC9EB00D07626 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21ED02528ABC9EB00D07626 /* SearchViewController.swift */; };
+		E279A44D28AD103900EE5BE3 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E279A44C28AD103900EE5BE3 /* CollectionViewTableViewCell.swift */; };
 		E29D312C28ABCDDB0089CE9B /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29D312B28ABCDDB0089CE9B /* PlaylistViewController.swift */; };
 		E29D312E28ABCFB90089CE9B /* SaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29D312D28ABCFB90089CE9B /* SaveViewController.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +29,7 @@
 		E21ED01C28AA741200D07626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E21ED02328ABC58800D07626 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E21ED02528ABC9EB00D07626 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E279A44C28AD103900EE5BE3 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		E29D312B28ABCDDB0089CE9B /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
 		E29D312D28ABCFB90089CE9B /* SaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,6 +64,11 @@
 		E21ED00D28AA741000D07626 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				E279A44B28AD0FB400EE5BE3 /* Resources */,
+				E279A44A28AD0FAD00EE5BE3 /* Managers */,
+				E279A44928AD0F8100EE5BE3 /* Models */,
+				E279A44728AD0F6C00EE5BE3 /* Views */,
+				E279A44828AD0F7900EE5BE3 /* ViewModels */,
 				E21ED02228ABC54300D07626 /* Controllers */,
 				E21ED00E28AA741000D07626 /* AppDelegate.swift */,
 				E21ED01028AA741000D07626 /* SceneDelegate.swift */,
@@ -82,6 +89,42 @@
 				E29D312D28ABCFB90089CE9B /* SaveViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E279A44728AD0F6C00EE5BE3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E279A44C28AD103900EE5BE3 /* CollectionViewTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E279A44828AD0F7900EE5BE3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E279A44928AD0F8100EE5BE3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E279A44A28AD0FAD00EE5BE3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		E279A44B28AD0FB400EE5BE3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +199,7 @@
 			files = (
 				E21ED02628ABC9EB00D07626 /* SearchViewController.swift in Sources */,
 				E29D312C28ABCDDB0089CE9B /* PlaylistViewController.swift in Sources */,
+				E279A44D28AD103900EE5BE3 /* CollectionViewTableViewCell.swift in Sources */,
 				E21ED01328AA741000D07626 /* MainTabBarViewController.swift in Sources */,
 				E21ED00F28AA741000D07626 /* AppDelegate.swift in Sources */,
 				E21ED01128AA741000D07626 /* SceneDelegate.swift in Sources */,
