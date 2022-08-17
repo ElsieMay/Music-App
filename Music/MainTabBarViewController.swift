@@ -23,6 +23,13 @@ class MainTabBarViewController: UITabBarController {
         vc3.tabBarItem.image = UIImage(systemName: "square.and.arrow.down")
         vc4.tabBarItem.image = UIImage(systemName: "play")
     
+        vc1.title = "home"
+        vc2.title = "search"
+        vc3.title = "save"
+        vc4.title = "playlist"
+        
+        tabBar.tintColor = .label
+        
         setViewControllers([vc1, vc2, vc3, vc4], animated: true)
     
     }
